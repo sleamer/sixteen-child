@@ -1,0 +1,27 @@
+/*
+ Theme Name:     Sixteen Child Theme
+ Theme URI:      http://inkhive.com/product/sixteen/
+ Description:    Sixteen Child Theme
+ Author:         Rohit Tripathi
+ Author URI:     http://inkhive.com
+ Template:       Sixteen
+ Version:        1.0.0
+*/
+ 
+@import url("../sixteen/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+body {
+
+	font-size: 1.75em;
+}
+
+/*p span {
+
+	font-size: .8em;
+}*/
+
+.entry-content {
+	font-size: .8em;
+}
