@@ -1,0 +1,21 @@
+[fu-upload-form class="latformtext" title="Upload Your Latrinalia Image Here" form_layout="post_image" success_page="../?page_id=16&response=fu-post-sent"]
+
+[input type="file" name="photo" post_type="image"]
+
+[input type="text" name="post_title" description="Image Title" ]
+
+[textarea name="post_content" description="Image Comments"]
+
+[select name="PortArea" class="select" description="Area of Portland" values="North,NE,NW,SE,SW,East,Unknown/Other"]
+
+[select name="RestEst" class="select" description="Restroom Establishment" values="Retail,Cafe,Restaurant/Bar,Business/Office,School,Public Restroom,Other"]
+
+[select name="RestType" class="select" description="Type of Restroom" values="Men's,Women's,Unisex"]
+
+[checkboxes name="foo" class="checkboxes" description="Select one or more Genres" values="sex:Sex/Relationships,religion:Religious,politics:Politics,insulting:Insulting,humor:Humor,observations:Observations,misc:Misc/Other"]
+
+ 
+
+[input type="submit" class="btn" value="Submit"]
+
+[/fu-upload-form]
