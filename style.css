@@ -25,3 +25,12 @@ body {
 .entry-content {
 	font-size: .8em;
 }
+
+/*SAL: include to get white-ish background on Category Page listings.*/
+/*SAL: this needs a @media fix to correct the border on smaller screens*/
+.category-area {
+  padding-left: 30px;
+  padding-right: 50px;
+  background: #e4e0c6;
+  overflow: auto;
+}

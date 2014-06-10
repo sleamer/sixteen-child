@@ -13,10 +13,12 @@
 get_header(); ?>
 
 	<div id="primary-home" class="content-area">
+		<div class="category-area" >
 		<h2 id="page-title"><?php single_cat_title(); ?></h2>
-			<main id="main" class="site-main" role="main">
+			
+				<main id="main" class="site-main" role="main">
 <!-- SAL: added this class "category-area" to fix formatting -->
-				<div class="category-area" >
+				
 				<?php while ( have_posts() ) : the_post(); ?>
 	
 					<?php get_template_part( 'content', 'home' ); ?>
@@ -30,8 +32,9 @@ get_header(); ?>
 				<?php endwhile; // end of the loop. ?>
 				
 				<?php sixteen_pagination(); ?>
-			</div><!-- .category-area -->
+				
 			</main><!-- #main -->
+			</div><!-- .category-area -->
 	</div><!-- #primary-home-->
 
 <?php get_sidebar('footer'); ?>
