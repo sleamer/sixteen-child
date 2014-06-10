@@ -1,4 +1,14 @@
 <?php 
+/*SAL: Pulled this fix from http://wordpress.org/support/topic/how-to-add-tags-1*/
+// Custom action to do any additional logic after attachment is uploaded
+add_action( 'fu_after_upload', 'my_fu_after_upload' );
+
+function my_fu_after_upload( $attachment_ids ) {
+    foreach( $attachment_ids as $aid ) {
+        echo $attachment_ids;
+    }
+}
+
 /*
 add_action( 'fu_after_upload', 'my_fu_after_upload', 10, 2 );
 function my_fu_after_upload( $media_ids, $success ) {
