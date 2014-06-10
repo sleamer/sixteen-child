@@ -1,5 +1,5 @@
 <?php 
-
+/*
 add_action( 'fu_after_upload', 'my_fu_after_upload', 10, 2 );
 function my_fu_after_upload( $media_ids, $success ) {
 	// Something went wrong with upload
@@ -16,14 +16,14 @@ set_post_thumbnail( $_POST['post_ID'], $imgID );
 // Update post 37
   $my_post = array(
       'ID'           => $_POST['post_ID'],
-      'post_content' => 'This is the updated content.'
+      'post_content' => '[fu-upload-form form-layout="post_image"]'
   );
 
 // Update the post into the database
   wp_update_post( $my_post );
 
 }
-
+*/
 
 ?>
 
