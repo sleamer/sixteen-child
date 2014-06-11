@@ -34,3 +34,16 @@ body {
   background: #e4e0c6;
   overflow: auto;
 }
+
+/*SAL theme color for the gritty background header image 
+#140c00*/
+
+#header-image::after {
+
+  border-bottom: solid 9px #3b1807;
+}
+
+.genres li {
+
+	list-style: none;
+}

@@ -15,22 +15,20 @@ get_header(); ?>
 	<div id="primary-home" class="content-area">
 		<div class="category-area" >
 		<h2 id="page-title"><?php single_cat_title(); ?></h2>
-			
-				<main id="main" class="site-main" role="main">
-
-				
-				<?php while ( have_posts() ) : the_post(); ?>
-	
-					<?php get_template_part( 'content', 'home' ); ?>
-	
-					<?php
-						// If comments are open or we have at least one comment, load up the comment template
-						if ( comments_open() || '0' != get_comments_number() )
-							comments_template();
-					?>
-	
-				<?php endwhile; // end of the loop. ?>
-				
+			<!-- style="border: 5px solid red;" -->
+				<main id="main" class="site-main" role="main" >
+					<ul> 
+<?php wp_list_categories('orderby=id&show_count=1&use_desc_for_title=0&child_of=30'); ?>
+					</ul>
+				<ul class="genres">
+					<li>HUMOR</li>
+					<li>INSULTING</li>
+					<li>MISC/OTHER</li>
+					<li>OBSERVATIONS</li>
+					<li>POLITICAL</li>
+					<li>RELIGIOUS</li>
+					<li>SEX and/or RELATIONSHIPS</li>
+				</ul>
 				<?php sixteen_pagination(); ?>
 				
 			</main><!-- #main -->
