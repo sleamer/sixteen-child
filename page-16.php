@@ -31,6 +31,8 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_sidebar('footer'); ?>
+
+<!-- SAL: Script that pulls all boxes checked and assigns them to categories in the post data -->
 <script type="text/javascript">
 jQuery(document).ready(function(){
 var categories = ""; 

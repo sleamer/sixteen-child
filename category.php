@@ -12,7 +12,7 @@
 
 get_header(); ?>
 <!-- SAL: added this class "category-area" to fix formatting -->
-	<div id="primary-home" class="content-area">
+	<div id="primary" class="content-area">
 		<div class="category-area" >
 		<h2 id="page-title"><?php single_cat_title(); ?></h2>
 			
@@ -36,6 +36,6 @@ get_header(); ?>
 			</main><!-- #main -->
 			</div><!-- .category-area -->
 	</div><!-- #primary-home-->
-
+<?php get_sidebar(); ?>
 <?php get_sidebar('footer'); ?>
 <?php get_footer(); ?>

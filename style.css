@@ -43,7 +43,7 @@ body {
   border-bottom: solid 9px #3b1807;
 }
 
-.genres li {
-
+/*SAL: Class for the category page lists on Cat pages*/
+.plcats li {
 	list-style: none;
 }
