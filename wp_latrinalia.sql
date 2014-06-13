@@ -17,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `wp_latrinalia`
+-- Database: `portla52_wp67`
 --
-CREATE DATABASE IF NOT EXISTS `wp_latrinalia` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `wp_latrinalia`;
+CREATE DATABASE IF NOT EXISTS `portla52_wp67` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `portla52_wp67`;
 
 -- --------------------------------------------------------
 
